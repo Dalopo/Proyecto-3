@@ -1,0 +1,118 @@
+/* Reset de estilos para el body y HTML */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: red;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-container h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* Estilos para el contenido principal */
+.background {
+  background-color: black;
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el carrusel */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 60%; /* Ajusta el ancho del carrusel según tus necesidades */
+  margin: 0 auto;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.arrow-button {
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  display:block;
+  text-align: center;
+}
+
+.footer-column h4 {
+  position:relative;
+  left: 20px;
+  color: greenyellow;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+}
